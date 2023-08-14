@@ -1,8 +1,8 @@
 build:
-	go build -o bin/cachematrixclient
+	go build -o bin/cachematrix
 
 run: build
-	./bin/cachematrixclient
+	./bin/cachematrix
 
 runfollower: build
 	./bin/cachematrix --listenaddr :4040 --leaderaddr :3000

@@ -38,3 +38,40 @@ You will be evaluated on the following criteria:
 * The resilience of your system.
 * The quality of your tests.
 * The quality of your documentation.
+
+
+# Results of benchmarking
+
+Under 10,000 requests for 1 server (leader):
+
+*1 connection*
+
+* Average duration:  655.937958ms
+* Max duration:  655.937958ms
+* Min duration:  655.937958ms
+
+
+*10 connections*
+* Average duration:  1.520227158s
+* Max duration:  1.556001708s
+* Min duration:  1.495153291s
+
+*100 connections*
+* Average duration:  14.328715119s
+* Max duration:  14.37856125s
+* Min duration:  14.208179583s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
